@@ -24,4 +24,4 @@ if it isnt true, it will end the while loop
 
 ### Challenge
 
-print your name 100 times, but write console.log() only once
+print your name 10 times, but write console.log() only once
