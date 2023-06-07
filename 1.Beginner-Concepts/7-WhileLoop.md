@@ -10,18 +10,18 @@ here is an example
 var loopNumber = 1;
 while(loopNumber <= 5) {
     console.log("I hate javascript (jk)");
-    loopNumber = loopNumber + 1; // increase the loopnumber each time, otherwise loopNumber will always be      less than 5, which will make the program run forever
+    loopNumber = loopNumber + 1; // increase the loopNumber each time, otherwise loopNumber will always be      less than 5, which will make the program run forever
 }
 
 // will print "I hate javascript (jk)" 5 times
 ```
 
-Everytime the while loop runs, it will check if the condition within the parenthesis is true
+Every time the while loop runs, it will check if the condition within the parenthesis is true
 
-if it is true, it will execute the code blocks one time, then check again
+If it is true, it will execute the code blocks one time, then check again
 
-if it isnt true, it will end the while loop
+If it isn't true, it will end the while loop
 
 ### Challenge
 
-print your name 10 times, but write console.log() only once
+Print your name 10 times, but write console.log() only once

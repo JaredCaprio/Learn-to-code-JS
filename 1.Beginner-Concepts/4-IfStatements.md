@@ -5,10 +5,10 @@ var x = 10;
 
 if(x == 10) {
     console.log("Its equal to 10"); // because its inside the brackets, its indented
-} // notice that we dont need a semicolon here
+} // notice that we don't need a semicolon here
 ```
 
-What you are seeing above, is a basic example of an if statement. 
+What you are seeing above, is a basic example of an if statement.
 
 there are three parts to an if statement
 
@@ -18,7 +18,7 @@ there are three parts to an if statement
 
 - The block of code, which is contained withing the brackets
 
-The if statement works in a simple way, if the condition within the parenthesis is true, the 
+The if statement works in a simple way, if the condition within the parenthesis is true, the
 block of code will be run, otherwise the block of code will be skipped over.
 
 ```Javascript
@@ -37,26 +37,29 @@ you may have noticed that we wrote == in the first example, this is called a com
 There are six main types you need to know
 
 - ==
-    - Checks wether the value on the left, is equal to the value on the right
-    If the they are equal, it will count as true, in the first example, because 
+
+  - Checks wether the value on the left, is equal to the value on the right
+    If the they are equal, it will count as true, in the first example, because
     our variable x is equal to 10, the if statement is run
 
 - !=
-    - Checks wether the value on the left does not equal the value on the right
+  - Checks wether the value on the left does not equal the value on the right
     if in our first example, we wrote if(x != 5), the if statement would be run because the condition
     is still true
 - >
-    - Counts as true if the value on the left is more than the value on the right
+  - Counts as true if the value on the left is more than the value on the right
 - <
-    - Counts as true if the value on the left is less than the value on the right
 
-- >=
-    - Counts as true if the value on the left is more than or equal to the value on the right
+  - Counts as true if the value on the left is less than the value on the right
+
+- > =
+
+  - Counts as true if the value on the left is more than or equal to the value on the right
 
 - <=
-    - Counts as true if the value on the left is less than or equal to the value on the right
+  - Counts as true if the value on the left is less than or equal to the value on the right
 
-### Wierd things you might see
+### Weird things you might see
 
 ```Javascript
 var x = true;
@@ -80,11 +83,11 @@ if(x == 5) {
 }
 ```
 
-here is an example of an else if statement, because the first condition wasnt true, it moved on the the second
+Here is an example of an else if statement, because the first condition wasn't true, it moved on the the second
 
 If the first condition(x == 5) was true, it would skip past the else if statement
 
-This is different from writing two seperate if statements because only one of the code blocks will be executed
+This is different from writing two separate if statements because only one of the code blocks will be executed
 
 ### else statements
 
@@ -102,7 +105,7 @@ if(x == 5) {
 The else statement functions similarly to the else if statement, except it will always execute,
 as long as none of the previous conditions are met
 
-In this case, any value that isnt 5 or 10, will print out "Something different"
+In this case, any value that isn't 5 or 10, will print out "Something different"
 
 ### Challenge
 

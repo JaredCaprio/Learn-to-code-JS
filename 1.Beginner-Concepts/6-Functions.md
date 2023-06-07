@@ -12,9 +12,9 @@ myFunction();
 // will print hello three times
 ```
 
-A function is a way to write a block of code once, and use it everywhere. 
+A function is a way to write a block of code once, and use it everywhere.
 
-to write a function, start with the function keyword, followed by the name
+To write a function, start with the function keyword, followed by the name
 
 in this case, the name is "myFunction"
 
@@ -22,12 +22,11 @@ then add a set of parenthesis, these will come into play later
 
 Just like an If statement, put your code in open and closing parenthesis
 
-
 To call a function, just write its name, followed by parenthesis
 
 ### Function arguments
 
-Lets say we want to use a value in our function, but the value will change 
+Let's say we want to use a value in our function, but the value will change
 
 For this we use arguments
 
@@ -52,31 +51,29 @@ Lets say we want to take a value out of the function, and use it somewhere else
 
 This is where the return statement comes into play
 
-The return statement does 2 things
-    - ends the function
-    - gives back any values that come after it
+The return statement does 2 things - ends the function - gives back any values that come after it
 
-``` Javascript 
+```Javascript
 function multiply(x, y) {
     var answer = x * y;
     return answer;
     console.log("hi"); // THIS WILL NOT PRINT, because the function ends on the previous line
 }
 
-var mynumber = multiply(2, 3);
-console.log(mynumber); // returns 6
+var myNumber = multiply(2, 3);
+console.log(myNumber); // returns 6
 ```
 
 I know this might be tricky to grasp, but bear with me
 
 because we used a return statement, multiply(2, 3) is equal to 6
 
-the best way to learn functions is by playing around with them yourself.
+The best way to learn functions is by playing around with them yourself.
 In particular, play around with arguments and return statement
 
 ### Examples
 
-to help you further understand functions, here are some examples of functions in practice
+To help you further understand functions, here are some examples of functions in practice
 
 ```Javascript
 
@@ -87,22 +84,15 @@ function areaOfCircle(radius) {
 
 console.log(areaOfCircle(2));// will output 12.56
 
-function hypoteneuseLength(a, b) {
+function hypotenuseLength(a, b) {
     var cSquared = a ** 2 + b ** 2;
     return Math.sqrt(cSquared);
 }
 
-console.log(hypoteneuseLength(3, 4)); // will output 5
+console.log(hypotenuseLength(3, 4)); // will output 5
 
 ```
 
-
 ### Challenge
 
-make the formula for the area of a triangle
-
-
-
-
-
-
+Make the formula for the area of a triangle
